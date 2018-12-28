@@ -1,0 +1,23 @@
+﻿# https://docs.npmjs.com/misc/developers#keeping-files-out-of-your-package
+
+# dependencies
+/node_modules
+
+# IDEs and editors
+/.idea
+/.history
+
+# build tools
+.gitignore
+.jshintrc
+.npmignore
+
+# ci tools
+/.circleci
+
+# misc
+/.github
+CODE_OF_CONDUCT.md
+CONTRIBUTING.md
+npm-debug.log
+yarn.*
