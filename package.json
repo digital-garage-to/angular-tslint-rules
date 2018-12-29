@@ -1,6 +1,6 @@
 {
   "name": "@digitalgarage/angular-tslint-rules",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Shared TSLint & codelyzer rules to enforce a consistent code style for Angular development",
   "repository": {
     "type": "git",
