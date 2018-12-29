@@ -40,7 +40,10 @@
     "interface-over-type-literal": true,
     "function-constructor": true,
     "no-parameter-reassignment": true,
-    "no-void-expression": true,
+    "no-void-expression": [
+      true,
+      "ignore-arrow-function-shorthand"
+    ],
     "return-undefined": true,
     "no-arg": true,
     "only-arrow-functions": true,
@@ -294,15 +297,8 @@
     ],
     "no-redundant-jsdoc": true,
     "ban-ts-ignore": true,
-    "no-console": [
-      true,
-      "log",
-      "debug",
-      "info",
-      "time",
-      "timeEnd",
-      "trace"
-    ],
+    "no-any": true,
+    "no-console": true,
     "no-debugger": true,
     "no-eval": true,
     "no-string-throw": true,
